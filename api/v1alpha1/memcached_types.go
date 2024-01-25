@@ -32,6 +32,8 @@ type MemcachedSpec struct {
 
 	// +operator-sdk:csv:customresourcedefinitions:type=spec
 	ContainerPort int32 `json:"containerPort,omitempty"`
+
+	Test string `json:"test,omitempty"`
 }
 
 // MemcachedStatus defines the observed state of Memcached
